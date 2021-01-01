@@ -1,6 +1,6 @@
 # manuscript-object
 
-The `Manuscript` class represents a python version of BnF Ms 640. It contains a list of `Entry` objects, which hold the raw XML data from each entry along with some other data such as categories, title, ID, and properties.
+The `Manuscript` class represents a python version of BnF Ms. Fr. 640. It contains a list of `Entry` objects, which hold the raw XML data from each entry along with some other data such as categories, title, ID, and properties.
 
 When `Manuscript` is instantiated, it loads every folio in [`ms-xml`](https://github.com/cu-mkp/m-k-manuscript-data/tree/master/ms-xml) and processes it into its component entries, each of which becomes a `Entry` object.
 
